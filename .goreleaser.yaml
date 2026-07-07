@@ -40,6 +40,7 @@ brews:
   - name: sql-tap
     homepage: https://github.com/mickamy/sql-tap
     description: Watch SQL traffic in real-time with a TUI
+    directory: Formula
     install: |
       bin.install "sql-tap"
       bin.install "sql-tapd"
